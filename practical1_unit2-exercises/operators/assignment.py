@@ -8,3 +8,4 @@ x *= 2
 print(f"After x *= 2: {x}")
 x /= 4
 print(f"After x /= 4: {x}")
+

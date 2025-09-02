@@ -6,5 +6,3 @@ greeting = f"hello, {name} !"
 print (greeting)
 name_length = len(name)
 print(name_length)
-
-

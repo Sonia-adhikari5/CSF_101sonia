@@ -7,4 +7,3 @@ print(f"division: { a/b}")
 print(f"modulus: {a%b}")
 print(f" exponentiation: { a**b}")
 print(f"floor division: { a//b }")
-

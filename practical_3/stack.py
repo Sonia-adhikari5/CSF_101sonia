@@ -1,3 +1,4 @@
+## Implementing a Stack
 class Stack:
     def __init__(self):
         self.items = []
@@ -12,22 +13,22 @@ class Stack:
         if not self.is_empty():
             return self.items.pop()
         else:
-            raise IndexError("Stack is empty")
+            raise IndexError("pop from empty stack")
 
     def peek(self):
         if not self.is_empty():
             return self.items[-1]
         else:
-            raise IndexError("Stack is empty")
+            raise IndexError("peek from empty stack")
 
     def size(self):
         return len(self.items)
-
-# Test the Stack
+    
+# Test the stack
 stack = Stack()
 stack.push(1)
 stack.push(2)
 stack.push(3)
-print(stack.pop())  # Should print 3
-print(stack.peek())  # Should print 2
-print(stack.size())  # Should print 2
+print(stack.pop())  #  should print 3
+print(stack.peek()) # should print 2
+print(stack.size()) # should print 2
